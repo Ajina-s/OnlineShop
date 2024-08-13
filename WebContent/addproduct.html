@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <form action="addproduct"  method="post" enctype="multipart/form-data">
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+         <label for="image">Description:</label>
+         <textarea name="description" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="image">Image:</label>
+        <input type="file"  name="image"  required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" min="0" required><br><br>
+        
+       <label for="dropdown">Select an option</label>
+       <select id="dropdown" name="dropdown">
+       <option value="option1">1</option>
+       <option value="option1">2</option>
+       <option value="option1">3</option>
+       <option value="option1">4</option>
+       <option value="option1">5</option>
+       
+       </select>
+
+        <input type="submit" value="Add Product">
+    </form>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@charset "ISO-8859-1";
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+
+}
+.menu-btn
+{
+    color:#424144 ;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.navbar
+
+{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    z-index: 999;
+    top: 0;
+    background-color: #f3f4f6;
+    box-shadow: 0 0 14px rgba(0,0,0,0.3);
+}
+.navbar .logo h1{
+    color: #424144;
+    border-bottom: 4px solid #fd6561;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: #424144;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .menu li .active
+{
+    border-bottom: 4px solid #f63e4e;
+}
+.navbar .menu li  a i{
+    color: #f63e4e;
+}
+.navbar .menu li a:hover
+{
+    border-bottom: 4px solid #f63e4e;
+}
+.content
+{
+background-image: url('R.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+padding: 0 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+color: #424144;
+height:100vh;
+visibility: 1px;
+
+}
+.content h1
+{
+    font-size: 40px;
+    margin-left:-20px;
+}
+.content p
+{
+ font-size: 20px;
+ margin-top: 20px;
+ margin-left:-20px;
+
+}
+.content button
+{
+    margin-top: 30px;
+    padding: 15px 30px;
+    margin-left:-20px;
+    border: none;
+    background: #f63e4e;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pheading
+{
+    text-align: center;
+    margin: 50px 0;
+    color: #424144;
+}
+.card
+{   
+	
+	width:15rem;
+	margin-right:10px;
+}
+.container
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+ .card-img-top
+  {
+  
+  height:300px;
+  object-fit:cover;
+  cursor:pointer;
+  
+   
+  }  
+ .card-body p
+ {
+ font-weight:bold;
+ font-size:20px;
+
+ }
+ .button-container 
+ {
+ display:flex;
+ justify-content:space-between;
+ }
+.btn
+{
+	padding:10px;
+	border-radius:5px;
+}
+i
+{
+	 
+	 color: red;
+	 margin-right:90px;
+}

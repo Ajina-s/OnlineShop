@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Balance Details</title>
+</head>
+<body>
+    <h1>Seller Balance Details</h1>
+    <form action="InsertServlet" method="POST">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required><br><br>
+
+        <label for="license">License Number:</label>
+        <input type="text" id="license" name="license" required><br><br>
+
+        <input type="hidden" name="name" value="${name}">
+        <input type="hidden" name="username" value="${username}">
+        <input type="hidden" name="password" value="${password}">
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
